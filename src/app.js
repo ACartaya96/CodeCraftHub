@@ -8,7 +8,7 @@ const errorHandler = require('./utils/errorHandler');
 const app = initServer();
 connectDB();
 
-app.use('/api/users', userRoutes);
+app.use('/users', userRoutes);
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;

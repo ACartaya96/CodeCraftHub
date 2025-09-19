@@ -176,7 +176,7 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 // .env
-MONGO_URI=mongodb://root:<mongo_password>@<mongo_host>:27017/usermngtservice?authSource=admin
+MONGO_URI=mongodb: 9lXS1he0vLi9X1ZWfxtKKBdF@172.21.187.105:27017/usermngtservice?authSource=admin
 PORT=5000
     
 // package.json
